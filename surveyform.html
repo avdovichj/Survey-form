@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FCC: Survey Form</title>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<meta charset="UTF-8">
+		<link href="surveystyle.css" type="text/css" rel="stylesheet">
+	</head>
+<body>
+	<h1 id="title">WAGZ Kennel Questionnaire</h1>
+
+	<div>
+		<form id="survey-form">
+			<p id="description">Are you interested in adopting one of our many dogs? Please fill out this questionnaire below, so that we can have a better idea of what you are looking for in a family companion</p>
+			<br>
+			<label for="name" id="name-label">Name:</label>
+			<br>
+			<input id="name" name="name" type="text" placeholder=" Please enter your full name.." required>
+			<br><br><br>
+			<label for="email" id="email-label">Email:</label>
+			<br>
+			<input id="email" name="email" type="email" placeholder=" Please enter your email.." required>
+			<br><br><br>
+			<label for="number" id="number-label">Age:</label>
+			<br>
+			<input id="number" name="age" type="number" min="18" max="90" placeholder="Please enter your age.." required>
+			<br><br><br>
+			<label for="dropdown">Dog breed:</label>
+			<br>
+			<select id="dropdown" required>
+				<option disabled selected hidden>Choose a breed..</option>
+				<option>Golden Retriever</option>
+				<option>German Shepherd</option>
+				<option>St. Bernard</option>
+				<option>Lhasa Apso</option>
+				<option>Bulldog</option>
+				<option>Shih Tzu</option>
+				<option>Beagle</option>
+				<option>Siberian Husky</option>
+			</select>
+
+			<br><br><br>
+
+			<fieldset>
+				<legend>Where do you live?</legend>
+				<input id="house" type="radio" name="home" value="house">
+				<label for="house">A House</label>
+				<br>
+				<input id="apartment" type="radio" name="home" value="apartment">
+				<label for="apartment">An Apartment</label>
+				<br>
+				<input id="condominium" type="radio" name="home" value="condominium">
+				<label for="condominium">A Condominium</label>
+			</fieldset>
+
+			<br><br><br>
+
+			<fieldset>
+				<legend>Have you previously owned any pets?</legend>
+				<input id="yes" type="radio" name="own" value="yes">
+				<label for="yes">Yes</label>
+				<br>
+				<input id="no" type="radio" name="own" value="no">
+				<label for="no">No</label>
+			</fieldset>
+
+			<br><br><br>
+
+			<fieldset>
+				<legend>Why do you want to adopt this pet?</legend>
+				<input id="child" type="checkbox" name="why" value="child">
+				<label for="child">Companion for a child</label>
+				<br>
+				<input id="dog" type="checkbox" name="why" value="dog">
+				<label for="dog">Companion for other dog</label>
+				<br>
+				<input id="self" type="checkbox" name="why" value="self">
+				<label for="self">Companion for myself</label>
+				<br>
+				<input id="security" type="checkbox" name="why" value="security">
+				<label for="security">For security</label>
+				<br>
+				<input id="breeding" type="checkbox" name="why" value="breeding">
+				<label for="breeding">For breeding</label>
+				<br>
+				<input id="other" type="checkbox" name="why" value="other">
+				<label for="other">Other</label>
+			</fieldset>
+
+			<br><br><br>
+
+			<label for="comment">Any comments? (optional)</label>
+			<br><br>
+			<textarea id="comment" placeholder=" Enter your comment here.."></textarea>
+			
+			<br><br><br>
+
+			<input type="submit" id="submit" value="SUBMIT">
+			<br>
+		</form>
+	</div>
+<br><br>
+</body>
+</html>

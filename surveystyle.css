@@ -1,0 +1,67 @@
+body{
+	background-image: url(https://scontent.fskp4-2.fna.fbcdn.net/v/t1.0-9/106211038_104751551297953_3170567328383461752_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=SisRmOPGg2wAX-LDsSX&_nc_ht=scontent.fskp4-2.fna&oh=5855c951756ec3c051423c17a08cc63b&oe=5F87DAD0);
+	background-size: 400px;
+	background-repeat: repeat;
+	color: white;
+}
+
+div{
+	background-color: #4689E0;
+	opacity: 95%;
+	padding: 50px;
+	width: 500px;
+	margin: auto;
+	border-radius: 10px;
+	position: relative;
+	display: flex;
+}
+
+h1, p{
+	color: black;
+	text-align: center;
+}
+
+h1{
+	font-size: 50px;
+	font-family: "Garamond", "Trebuchet MS";
+}
+
+p{
+	font-family: Verdana;
+}
+
+{
+	font-family: "Trebuchet MS", Tahoma;
+	font-size: 20px;
+}
+
+input{
+	border-radius: 5px;
+	border: none;
+}
+
+#name, #email, #number{
+	width: 500px;
+	height: 30px;
+}
+
+#dropdown{
+	width: 500px;
+	height: 25px;
+	border-radius: 5px;
+	border: none;
+}
+
+#comment{
+	width: 500px;
+	height: 60px;
+}
+
+#submit{
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: 50px;
+	background-color: #58CE4A;
+	color: white;
+}
